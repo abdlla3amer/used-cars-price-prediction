@@ -66,3 +66,10 @@ These data was offered by the 365DataScience.com team as a part of the Machine L
 6. scikit-learn v-1.6.1
 
 ## Model Evaluation:
+The model was able to predict prices with residual percentage <= 25% of the target 56.77% of the times.
+The model was able to predict prices with residual percentage > 25% of the target 43.23% of the times.
+
+## Conclusion:
+The model can represent a low percentage of the data with resiudal <= 25% of the target (56.77%).
+There's an omitted variable bias.
+Model isn't recommended for deployment without furhter adjustments and more data wrangling.
